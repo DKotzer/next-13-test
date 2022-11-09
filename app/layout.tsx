@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-head-element */
 import Link from "next/link";
+import './global.css';
 
 export default function RootLayout({
   children,
@@ -8,7 +9,8 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head></head>
+      <head>
+      </head>
       <body>
         <main>
           <nav>
